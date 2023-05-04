@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #222;
+  color: #fff;
+  font-size: 1.1em;
+}
+header {
+  height: 30vh;
+}
+.websiteTitle,
+.websiteTitleP {
+  text-align: center;
+  font-size: 25px;
+}
+.websiteTitle {
+  margin-top: 3vh;
+  font-size: 30px;
+}
+.websiteTitleP {
+  margin-top: 6vh;
+}
+main {
+  width: 100%;
+  height: 60vh;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.mainTitle {
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.Skill {
+  justify-self: center;
+  margin-top: 5vh;
+  width: 20vw;
+  height: 10vh;
+  box-shadow: 3px 3px 3px 3px black;
+  cursor: pointer;
+}
+.skillsText {
+  text-align: center;
+  margin-top: 2vh;
+}
+section {
+  display: grid;
+  justify-content: center;
+  margin-top: 5vh;
+}
+.HiddenSkill {
+  height: 30vh;
+  width: 80vw;
+  grid-area: overlap;
+  display: none;
+}
+.showSkill {
+  display: block;
+}
